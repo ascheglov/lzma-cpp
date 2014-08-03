@@ -1,0 +1,13 @@
+Workflow:
+
+1.  build.
+
+2.  Run ./generator
+    it will create the ./*.lzma2 files.
+
+3.  Run ./decoder_tests
+    it will read the ./*.lzma2 files and try to decode them.
+
+4.  Refactor code.
+
+5.  Go to step 3.
